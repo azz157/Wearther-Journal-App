@@ -17,4 +17,4 @@ To get project up and running I followed these steps:
 5. Set up a function that update UI dynamically
 
 ### Result
-![project picture](https://drive.google.com/file/d/1lykDNEK57abAyjzn42cHOoqvhGtrnZm5/view?usp=sharing)
+![project image](https://drive.google.com/file/d/1lykDNEK57abAyjzn42cHOoqvhGtrnZm5/view?usp=sharing)
