@@ -16,5 +16,4 @@ To get project up and running I followed these steps:
 4. Create async functions to fetch weather data and store it on my local server
 5. Set up a function that update UI dynamically
 
-### Result
-![project image](https://drive.google.com/file/d/1lykDNEK57abAyjzn42cHOoqvhGtrnZm5/view?usp=sharing)
+
