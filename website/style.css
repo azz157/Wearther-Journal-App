@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    
+}
+img{
+    object-fit: cover;
+}
+#app{
+    width: 50%;
+    display: flex;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: 0 1rem 2rem rgb(0,0, 0,0.4);
+    border-radius: 10px;
+}
+.headline {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #00081b;
+    color: #fffff8;
+}
+.zip{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 60px;
+    width: 100%;
+    background-color:#050d1f;
+    color: #fffff8;
+    border-radius:10px;
+    opacity: 0.7;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1em;
+}
+#error{
+    color: red;
+}
+.feel{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#feelings{
+    background:#00081b;
+    color:#fffff8 ;
+    height: 60px;
+    width: 100%;
+    border-radius:10px;
+    opacity: 0.7;
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #00081b;
+    color: #fffff8;
+    font-size: 1em;
+    border: 1px solid #00081b;
+    border-radius: 10px; 
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+button:hover {
+  background-color: #00063a;
+  border-color: #001442;
+  color: rgb(179, 255, 249);
+}
+
+
+
+
+
+
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+    height: 250px;
+    width: 100%;
+    border-radius:10px;
+}
+
+#entryHolder{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #fffff8; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color:#fffff8; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #fffff8; 
+    font-family: 'Oswald', sans-serif;
+
+} 
